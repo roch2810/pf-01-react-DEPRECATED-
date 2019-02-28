@@ -6,6 +6,8 @@ export type PanelMargins = 'default' | 'out-standing';
 export interface PanelProps {
   variant?: PanelVariant;
   margins?: PanelMargins;
+  width?: string;
+  height?: string;
   className?: string;
 }
 

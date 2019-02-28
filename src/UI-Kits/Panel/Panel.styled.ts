@@ -9,6 +9,8 @@ export const StyledPanel = styled(PanelComponent)`
   border-radius: 0.5em;
   box-shadow: 0 0 1.9em ${props => fade(props.theme.colorSet.text, 0.18)};
   background-color: #fff;
+  width: ${(props) => props.width || '100%'};
+  height: ${(props) => props.height || '100%'};
 
   ${buildVariants};
 `;
