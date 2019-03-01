@@ -14,7 +14,7 @@ export const AboutSection: FC<AboutSectionProps> = ({ children }) => {
       <AboutSectionStyled>
         section about company
         {children}
-        <Panel variant="overlay-bottom">
+        <Panel variant="overlay-bottom" height={'180px'}>
           <Counter />
         </Panel>
       </AboutSectionStyled>
