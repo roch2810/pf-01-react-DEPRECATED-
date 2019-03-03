@@ -8,7 +8,6 @@ const RootContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 700px;
 `;
 
 const Center = styled.div`
@@ -44,7 +43,7 @@ const StyledWrapPanel = styled.div`
 `;
 
 export const ServicesSection: FC = () => (
-  <Section style={{ height: '300px' }}>
+  <Section style={{ height: '500px' }}>
     <RootContainer>
       <Center>
         <ColoredTitle>WHAT WE DO</ColoredTitle>
